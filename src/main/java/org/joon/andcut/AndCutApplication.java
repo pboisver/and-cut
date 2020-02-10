@@ -18,7 +18,7 @@ public class AndCutApplication {
 	@GetMapping
 	public Map<String,String> startPage() {
 
-		return Collections.singletonMap("Hello", "world");
+		return Collections.singletonMap("Hello", "world!");
 	}
 
 }
